@@ -1,3 +1,7 @@
+- sudo docker run --rm -it -v ${PWD}:/workdir -w /workdir --network host python:latest bash
+- pip install -r requirements.txt
+- ./yt-dlp.sh "url"
+
 <!-- MANPAGE: BEGIN EXCLUDED SECTION -->
 <div align="center">
 
